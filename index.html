@@ -6,6 +6,25 @@
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <title>My store</title>
+        <style>
+          ul {
+            
+            
+            font-size: large;
+            color: black ;
+        
+          }
+
+          li{ 
+            color: black;
+          }
+          h2{
+            font-size: 40px;
+            color:hotpink;
+            font-weight: bolder;
+          }
+        </style>
 
         
     </head>
@@ -94,157 +113,129 @@
           
 
         <!-- Header -->
-        <!-- Your code here... -->
-        <header class="p-3 mb-3 border-bottom">
-          <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-      
-              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-              </ul>
-      
-              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-              </form>
-      
-              <div class="dropdown text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="https://github.com/mdo.png" alt="mdo" class="rounded-circle" width="32" height="32">
-                </a>
-                <ul class="dropdown-menu text-small">
-                  <li><a class="dropdown-item" href="#">New project...</a></li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Sign out</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img class="d-block justify-content-md-start" src="./spmulti.png" width="100" height="35">
+            
+           
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+            <button type="button" class="btn btn-success">Log in</button>
+          </ul>
         </header>
 
         <!-- Hero -->
         <!-- Your code here... -->
-        <div class="px-4 py-5 my-5 text-center">
-          <img class="d-block mx-auto mb-4" src="./logo.svg" alt="" width="72" height="57">
-          <h1 class="display-5 fw-bold">Centered hero</h1>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+          <h1 class="display-5 fw-bold">The future of tech is here</h1>
           <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-success btn-lg px-4 gap-3">Primary button</button>
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+            <p class="lead mb-4">Holisticly incentivize revolutionary collaboration and ideas sharing before cost effective users. Actual focused services before highly efficient human capital.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <button type="button" class="btn btn-success btn-lg px-4 me-sm-3 d-flex justify-content-center">BUY OUR PRODUCTS</button>
+              
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+              <img src="./image.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+
+        
+        
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./watch.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-6 fw-bold lh-1 mb-3">THE PRODUCT</h1>
+              <p class="lead">Understanding all the ways you move throughout the day is an essential part of leading a healthy life. SmartWatch shows your daily movement as three simple metrics: Move, Exercise and Stand.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-info btn-lg px-4 me-md-2"> To know more about the product</button>
+                
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Features -->
         <!-- Your code here... -->
-        <div class="container px-4 py-5" id="featured-3">
-          <h2 class="pb-2 border-bottom">Columns with icons</h2>
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-              </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                Call to action
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+        <h2 class="d-flex justify-content-center">THE BENEFITS</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+           
+            <div>
+              
             </div>
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
-              </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                Call to action
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Build quality and design</h4>
+              <p>The companion app allows you to customise the button function and also allows you to use</p>
             </div>
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-              </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                Call to action
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Heartbeat Analysis</h4>
+              <p>The smartwatch also has heartguide which helps to track blood pressure and heart rate.</p>
             </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Excellent battery life</h4>
+              <p>When smart notifications features, the smartwatch can display all the notifications on it. </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Activity tracking</h4>
+              <p>The smartwatch can track sleep with close ideal efficiency and deliver the data info.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            
+             
           </div>
         </div>
 
         <!-- Footer -->
         <!-- Your code here... -->
-        <div class="container">
-          <footer class="py-5">
-            <div class="row">
-              <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                </ul>
-              </div>
-        
-              <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                </ul>
-              </div>
-        
-              <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                </ul>
-              </div>
-        
-              <div class="col-md-5 offset-md-1 mb-3">
-                <form>
-                  <h5>Subscribe to our newsletter</h5>
-                  <p>Monthly digest of what's new and exciting from us.</p>
-                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                    <label for="newsletter1" class="visually-hidden">Email address</label>
-                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                    <button class="btn btn-primary" type="button">Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-        
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>© 2022 Company, Inc. All rights reserved.</p>
-              <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-              </ul>
-            </div>
-          </footer>
-        </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img class="d-block mx-auto mb-7" src="./spmulti.png" alt="" width="40" height="32">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
 
     </body>
 </html>
